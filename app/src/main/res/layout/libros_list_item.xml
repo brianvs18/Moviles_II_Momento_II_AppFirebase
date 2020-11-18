@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="80dp"
     android:padding="10dp"
     android:weightSum="1">
 
@@ -20,7 +20,7 @@
             android:id="@+id/iv_libros_list_item_image"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/ic_bookmarks_black_18dp" />
+            app:srcCompat="@drawable/ic_magic_book" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,7 +41,7 @@
             android:id="@+id/tv_libros_list_item_autor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:text="Autor" />
     </LinearLayout>
 

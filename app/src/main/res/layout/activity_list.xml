@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#C9410595"
     tools:context=".ListActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -28,8 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        android:tint="@android:color/black"
-        app:maxImageSize="35dp"/>
+        android:backgroundTint="#410595"
+        android:tint="@android:color/white"
+        app:backgroundTint="#410595"
+        app:fabSize="mini"
+        app:maxImageSize="30dp"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="@drawable/ic_add_black_18dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

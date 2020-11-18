@@ -27,20 +27,25 @@
         android:layout_width="wrap_content"
         android:layout_height="419dp"
         android:layout_gravity="bottom|end"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="140dp"
-        app:maxImageSize="35dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="105dp"
+        app:backgroundTint="#410595"
+        app:fabSize="mini"
+        app:maxImageSize="30dp"
+        app:rippleColor="#FFFFFF"
         app:srcCompat="@drawable/ic_done_black_18dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-    android:id="@+id/fab_create_clear"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom|end"
-    android:layout_marginRight="18dp"
-    android:layout_marginBottom="78dp"
-    app:maxImageSize="35dp"
-    app:srcCompat="@drawable/ic_clear_black_18dp" />
+        android:id="@+id/fab_create_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="60dp"
+        app:backgroundTint="#410595"
+        app:fabSize="mini"
+        app:maxImageSize="30dp"
+        app:srcCompat="@drawable/ic_clear_black_18dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_create_back"
@@ -48,7 +53,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:maxImageSize="35dp"
+        app:backgroundTint="#410595"
+        app:fabSize="mini"
+        app:maxImageSize="30dp"
         app:srcCompat="@drawable/ic_keyboard_backspace_black_18dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
